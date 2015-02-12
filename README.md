@@ -21,12 +21,9 @@ On the Windows command line, ensure you `cd` in to your current project director
 
 1. Clone this repository into your project directory using `git clone https://github.com/coventryuniversity/python-sql-libs.git venv`
     * If it worked, you will now have a `venv` folder inside your project directory
-2. To activate this environment from the command line run `venv\Scripts\activate.bat`
-    * If it worked, your command prompt will now show `(venv)` before the path
-3. You can now run any of your Python files from the command line with `python <filename.py>`
+2. You can now run any of your Python files from the command line with `venv\Scripts\python.exe <filename.py>`
     * Your Python file(s) will be able to use the ORM libraries included
     * Just import them as normal with `import sqlalchemy` or `from sqlalchemy import Column, Integer, String` etc...
-4. To deactivate the virtualenv, simply close the command prompt window, or execute `venv\Scripts\deactivate.bat`
 
 ## IDLE and Other Editors
 
