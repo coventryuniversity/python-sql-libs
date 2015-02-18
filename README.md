@@ -26,8 +26,8 @@ The libraries included here are:
 
 You can now run any of your Python files from the command line (load it with `cmd` from the Windows Start menu) using the command `venv\Scripts\python.exe <filename.py>` from inside your project directory (use `cd` to change directories, `dir` to list current files, `cd ..` to move up a level, and `E:` to change to drive E, etc.)
 
-    * Your Python file(s) will be able to use the ORM libraries included
-    * Just import them as normal with `import sqlalchemy` or `from sqlalchemy import Column, Integer, String` etc...
+* Your Python file(s) will be able to use the ORM libraries included
+* Just import them as normal with `import sqlalchemy` or `from sqlalchemy import Column, Integer, String` etc...
 
 ## IDLE and Other Editors
 
