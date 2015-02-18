@@ -22,7 +22,10 @@ The libraries included here are:
 1. `cd` in to your project directory (use `pwd` to show the current directory, `ls` to list current files, and `cd ..` to move up a level)
 1. Clone this repository into your project directory using `git clone https://github.com/coventryuniversity/python-sql-libs.git venv`
     * If it worked, you will now have a `venv` folder inside your project directory
-1. You can now run any of your Python files from the command line with `venv\Scripts\python.exe <filename.py>`
+1. Close SourceTree
+
+You can now run any of your Python files from the command line (load it with `cmd` from the Windows Start menu) using the command `venv\Scripts\python.exe <filename.py>` from inside your project directory (use `cd` to change directories, `dir` to list current files, `cd ..` to move up a level, and `E:` to change to drive E, etc.)
+
     * Your Python file(s) will be able to use the ORM libraries included
     * Just import them as normal with `import sqlalchemy` or `from sqlalchemy import Column, Integer, String` etc...
 
